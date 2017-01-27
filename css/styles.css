@@ -121,7 +121,7 @@ section p {
   .col-md-12 {
   	width: 100%;
   }
-		
+ 
 }
 /* desktop */
 @media (min-width: 992px) {
@@ -164,6 +164,14 @@ section p {
   }
   .col-lg-12 {
   	width: 100%;
+  }
+
+  menu {
+  	margin-left: 10%;
+  }
+
+  menu section:nth-child(1), menu section:nth-child(2) {
+  	margin-right: 3%;
   }
 }
 
