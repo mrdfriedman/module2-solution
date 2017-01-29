@@ -32,7 +32,6 @@ header {
 	position: absolute;
 	right: 0;
 	border: 1px solid black;
-	background-color: pink;
 	color: #000;
 }
 
@@ -42,20 +41,20 @@ header {
 	width: 100%;
 }
 
-/*style the titles for each section using nth-child*/
-.row .section:nth-child(1) h1{
+
+div.chicken h1{
 	background-color: pink;
 	padding-left: 1.5rem;
 	padding-right: 1.5rem;
 }
 
-.row .section:nth-child(2) h1{
+div.beef h1{
 	background-color: teal;
 	padding-left: 2.5rem;
 	padding-right: 2.5rem;
 }
 
-.row .section:nth-child(3) h1{
+div.sushi h1{
 	background-color: green;
 	padding-left: 2.2rem;
 	padding-right: 2.2rem;
@@ -124,9 +123,10 @@ header {
  
   /* need to do this so the third item, lines up with the top two on the left
      and right*/
-  /*section#sushi {
+  .sushi {
     width: 92.5%;
   }*/
+
 }
 /* desktop */
 @media (min-width: 992px) {
@@ -169,12 +169,6 @@ header {
   }
   .col-lg-12 {
   	width: 100%;
-  }
-
-  /* move the whole container over to make it centered on the screen according to
-     class requirements*/
-  .row {
-  	margin-left: 10%;
   }
 
   
